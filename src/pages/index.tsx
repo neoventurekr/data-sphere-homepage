@@ -1,19 +1,19 @@
 import styled from '@emotion/styled';
+import Header from "@/components/Header";
+import { useTranslation } from 'next-i18next'
+
 
 const Wrapper = styled.div`
 
 `
 
 export default function Home() {
+  const { t } = useTranslation('footer')
+  
   return (
-    <div>
-      <div>네비게이션</div>
-      <div>home</div>
-      <div>about</div>
-      <div>problem</div>
-      <div>solution</div>
-      <div>feature</div>
-      <div>푸터</div>
-    </div>
+    <Wrapper>
+      <Header />
+      <div>{t('common.title')}</div>
+    </Wrapper>
   );
 }

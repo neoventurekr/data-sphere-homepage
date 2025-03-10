@@ -1,6 +1,7 @@
 // place in translate/index.js
 const {GoogleSpreadsheet} = require('google-spreadsheet');
-const creds = require('./credentials/cyclubmobile-a32fa4c8afe7_for_exceldownload.json');
+// const creds = require('./credentials/cyclubmobile-a32fa4c8afe7_for_exceldownload.json');
+const creds = require('./credentials/datasphere-453302-6de01ef5e2b0.json');
 const spreadsheetDocId = '1nKTvIOzvsbPMh8v8dCWMGnWROla7aWHX7mz7E1JTDQA';
 const ns = 'translation';
 
