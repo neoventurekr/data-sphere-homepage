@@ -1,8 +1,9 @@
 :root {
   --white: #FFFFFF;
+  --black: #222222;
   --main: #8C44FF;
   --background: var(--white);
-  --foreground: #222222;
+  --foreground: var(--black);
 }
 
 html,
@@ -17,13 +18,13 @@ body {
   background: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  flex-shrink: 0;
 }
 
 a {
