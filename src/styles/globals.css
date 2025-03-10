@@ -1,7 +1,8 @@
 :root {
-  --background: #FFFFFF;
-  --foreground: #222222;
+  --white: #FFFFFF;
   --main: #8C44FF;
+  --background: var(--white);
+  --foreground: #222222;
 }
 
 html,
@@ -28,4 +29,9 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
 }

@@ -7,18 +7,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "i18n": "node ./src/i18n/GetLangByGoogleJsVer4Locale.js"
+    "i18n": "node ./src/i18n/GetLangByGoogleJsVer.js"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "i18next": "^24.2.2",
     "next": "15.1.4",
     "next-export-i18n": "^2.4.3",
-    "next-i18next": "^15.4.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-i18next": "^15.4.1"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

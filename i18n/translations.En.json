@@ -1,0 +1,84 @@
+{
+	"common": {
+		"data_sphere": "Data Sphere",
+		"menu_home": "Home",
+		"menu_about": "About",
+		"menu_problem&solution": "Problem & Solution",
+		"menu_features": "Features",
+		"menu_button": "Language"
+	},
+	"home": {
+		"title": "Be the owner of your data!",
+		"subtitle": "Secure and efficiently manage all types of data, including bio data, with Data Sphere, and realize personalized data ownership.",
+		"button": "More"
+	},
+	"about": {
+		"title": "Experience a new era of data management with data on your own and {common.data_sphere}.",
+		"description": "DataSphere is designed to ensure user-centric data ownership while enabling AI and other data-driven applications to efficiently utilize data. To do this, it combines decentralized data archiving, privacy protection technology, data transactions using smart contracts, and token-based economic models to ensure safe utilization and fair compensation of data.\n\nDataSphere is not just a data repository, but a comprehensive data ecosystem that maximizes data ownership, security, and usability. To do this, we apply blockchain technology and encryption protocols, allowing users to manage their data securely and trade it within a trusted network."
+	},
+	"problem": {
+		"title": "Problems with Traditional Data Management",
+		"subtitle": "Data has become a key asset in modern society,\nbut traditional data management systems have some major problems.",
+		"card_1_title": "Data Ownership Issues",
+		"card_1_description": "Most data is stored and managed on a centralized platform, and individuals have limited authority to decide whether to utilize their data.",
+		"card_2_title": "Privacy infringement and security concerns",
+		"card_2_description": "Security incidents such as hacking and data leakage frequently occur in the process of managing user data by large platforms.",
+		"card_3_title": "Data Utilization Inefficiency",
+		"card_3_description": "Data is distributed across multiple organizations and businesses, making it less interoperable and difficult to effectively provide customized data services that users need.",
+		"card_4_title": "Lack of data integrit",
+		"card_4_description": "In a centralized data management system, data can be easily modulated and reliability is difficult to achieve.",
+		"card_5_title": "Lack of data economy",
+		"card_5_description": "Users provide their data, but they often do not receive adequate compensation for it.",
+		"card_6_title": "Lack of data access",
+		"card_6_description": "Traditional data systems have high access barriers, making it difficult for small developers and businesses to leverage data."
+	},
+	"solution": {
+		"title": "Solution to {common.data_sphere}",
+		"subtitle": "DataSphere leverages decentralized networks and smart contracts to return data ownership to individuals and create a safer and more efficient data utilization environment.",
+		"card_title": "Solution Features",
+		"card_1_title": "Strengthen User-Centered Data Ownership",
+		"card_1_description": "Users have complete control over their data and can share it with third parties according to their desired conditions.",
+		"card_2_title": "Secure Data Storage",
+		"card_2_description": "Leverages decentralized storage (IPFS, Arweave, Filecoin) to securely store data and apply encryption technology to prevent unauthorized access.",
+		"card_3_title": "Ensure transparency in data utilization",
+		"card_3_description": "Blockchain-based smart contracts and multi-signature technology enable transparent recording and verification of data usage.",
+		"card_4_title": "Enabling the Data Economy",
+		"card_4_description": "Users can provide their data to organizations or businesses that need it, and they can be rewarded for it. This enables a data-driven economic model.",
+		"card_5_title": "Linking AI and data analysis",
+		"card_5_description": "It introduces AI-based data analysis to help users use data more efficiently.",
+		"card_6_title": "Building a Distributed Data Marketplace",
+		"card_6_description": "It helps companies and developers safely share and utilize the data they need based on blockchain."
+	},
+	"feature": {
+		"title": "Key features and benefits",
+		"subtitle": "DataSphere is a decentralized data management platform that enhances data ownership and security for users and provides customized solutions for different industries. This makes it easy for developers to build Dapps, and users can be rewarded with AI and data transactions.",
+		"keyword_1": "Support for decentralized applications (Dapps)",
+		"keyword_2": "Data ownership and management",
+		"keyword_3": "Decentralized storage system",
+		"keyword_4": "Leveraging AI and Data",
+		"keyword_5": "Data Use Cases",
+		"description_1": "DataSphere provides a development framework that makes it easier for developers to build Dapps. Create a data-driven Dapp ecosystem to help developers and users share and utilize data safely. You can maximize user data utilization through linkage with various Dapps.",
+		"description_2": "Users manage their data using a unique encryption key system based on blockchain. Smart contracts can be used to enable data access only under certain conditions.\nThe transaction and utilization history of data is recorded on the blockchain, ensuring data integrity. Data owners can sell data to specific service providers or utilize it for data analysis.",
+		"description_3": "Use IPFS, Arweave, and Filecoin to distribute and store data. Distributed storage ensures data integrity and minimizes the risk of hacking and data loss. Owners of data can manage access rights directly through smart contracts. Strengthen data encryption and prevent unauthorized access by utilizing a variety of protocols.",
+		"description_4": "Users can provide their data to AI model training and be rewarded. AI researchers design it so that they can safely access the data and learn the model.",
+		"description_5": "•Healthcare: Users can manage their health data and share it securely with healthcare institutions and research institutes to receive customized treatment solutions.\n•Finance: Manage users' financial data in a decentralized environment to provide more transparent credit ratings and lending services.\n•Public Service: Enables data-driven policy making in smart cities and administrative services, and ensures data transparency.\n•Data Transaction and Reward System: Users can provide their data to third parties, which will allow them to receive cryptocurrency or other rewards.\n•Smart Supply Chain Management: Help companies manage supply chain data on a blockchain basis to ensure transparency and efficiency."
+	},
+	"footer": {
+		"security": "Security",
+		"security_privacy": "Privacy",
+		"security_policy": "Policy",
+		"security_termOfUse": "Term of use",
+		"security_legalNotice": "Legal notice",
+		"explore": "Explore",
+		"explore_docs": "Docs",
+		"explore_medium": "Medium",
+		"explore_github": "Github",
+		"community": "Community",
+		"community_twitter": "Twitter",
+		"community_telegram": "Telegram",
+		"community_youtube": "Youtube",
+		"contactUs": "Contact us",
+		"contactUs_support": "Support",
+		"contactUs_email": "Email"
+	}
+}
