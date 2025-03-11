@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import {useCustomTranslation} from "@/hook/useCustomTranslation";
-import SolutionFeatures from "@/components/solution/SolutionFeatures";
+import CardSlider from "@/components/solution/CardSlider";
 
 const Wrapper = styled.div`
     .head {
@@ -36,6 +36,19 @@ const Wrapper = styled.div`
     }
 `
 
+const Features = styled.div`
+    width: 1280px;
+    margin: 0 auto;
+    padding: 243px 0 369px;
+    
+    h3 {
+        color: var(--black, #222);
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: -0.55px;
+    }
+`
+
 const Solution = () => {
   const { t } = useCustomTranslation();
   
@@ -45,7 +58,10 @@ const Solution = () => {
         <h2>{t('solution.title')}</h2>
         <p>{t('solution.subtitle')}</p>
       </div>
-      <SolutionFeatures />
+      <Features>
+        <h3>{t('solution.card_title')}</h3>
+        <CardSlider />
+      </Features>
     </Wrapper>
   );
 };
