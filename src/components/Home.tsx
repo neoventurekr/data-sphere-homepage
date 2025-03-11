@@ -1,8 +1,8 @@
+import {forwardRef} from "react";
 import styled from '@emotion/styled';
-import {useTranslation} from "next-export-i18n";
 import {useCustomTranslation} from "@/hook/useCustomTranslation";
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,19 +10,19 @@ const Wrapper = styled.div`
     background: url('/images/background_home.png') center no-repeat;
     background-size: cover;
     height: 100vh;
+    padding: calc((100% - 1280px) / 2);
     
     .content {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         max-width: 558px;
-        margin-right: 160px;
     }
     
     h2 {
         font-size: 60px;
         font-weight: 700;
-        letter-spacing: -0.66px;
+        letter-spacing: -0.6px;
         background: linear-gradient(90deg, #7DDCFF 0.01%, #8E48FF 102.25%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -33,7 +33,6 @@ const Wrapper = styled.div`
         margin: 14px 0 30px;
         color: #EEE;
         font-size: 24px;
-        font-weight: 500;
     }
     
     button {
@@ -46,16 +45,14 @@ const Wrapper = styled.div`
         background: var(--main, #8C44FF);
         color: var(--white, #FFF);
         font-size: 20px;
-        font-weight: 500;
-        letter-spacing: -0.22px;
     }
 `
 
-const Home = () => {
+const Home = forwardRef<HTMLDivElement>((props, ref) => {
   const { t } = useCustomTranslation();
   
   return (
-    <Wrapper>
+    <Wrapper ref={ref}>
       <div className={'content'}>
         <h2>{t('home.title')}</h2>
         <p>{t('home.subtitle')}</p>
@@ -63,6 +60,8 @@ const Home = () => {
       </div>
     </Wrapper>
   );
-};
+});
+
+Home.displayName = 'Home';
 
 export default Home;

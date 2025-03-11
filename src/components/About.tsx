@@ -1,13 +1,14 @@
+import {forwardRef} from "react";
 import styled from '@emotion/styled';
+import Title from "@/components/text/Title";
 import {useCustomTranslation} from "@/hook/useCustomTranslation";
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
     background: #F1EDFE;
     height: 100vh;
-    
     
     .content {
         display: flex;
@@ -17,15 +18,10 @@ const Wrapper = styled.div`
         margin: 0 auto;
         color: #414141;
         font-size: 20px;
-        font-weight: 500;
-        letter-spacing: -0.22px;
     }
     
     h2 {
-        color: var(--black, #222);
-        font-size: 54px;
-        font-weight: 700;
-        letter-spacing: -0.594px;
+        text-align: left;
         margin-bottom: 28px;
     }
     
@@ -34,20 +30,24 @@ const Wrapper = styled.div`
     }
 `
 
-const About = () => {
+const About = forwardRef<HTMLDivElement>((props, ref) => {
   const { t } = useCustomTranslation();
   
   return (
-    <Wrapper>
+    <Wrapper ref={ref}>
       <div className={'content'}>
         <div>
-          <h2>{t('about.title')}</h2>
+          <Title>
+            {t('about.title')}
+          </Title>
           <p>{t('about.description')}</p>
         </div>
         <img src={'/images/image_about.png'} alt="about" />
       </div>
     </Wrapper>
   );
-};
+});
+
+About.displayName = 'About';
 
 export default About;

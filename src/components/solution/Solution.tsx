@@ -1,8 +1,9 @@
 import styled from '@emotion/styled';
 import {useCustomTranslation} from "@/hook/useCustomTranslation";
 import CardSlider from "@/components/solution/CardSlider";
+import Title from "@/components/text/Title";
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
     .head {
         display: flex;
         flex-direction: column;
@@ -13,26 +14,18 @@ const Wrapper = styled.div`
         padding: 210px;
         background: url('/images/background_solution.png') center center no-repeat;
         background-size: cover;
-
-        h2 {
-            color: var(--white, #FFF);
-            font-size: 54px;
-            font-weight: 700;
-            letter-spacing: -0.594px;
-        }
+        color: var(--white, #FFF);
         
         p {
             width: 770px;
             color: var(--gray200, #DEDEDE);
             text-align: center;
             font-size: 24px;
-            font-weight: 500;
-            letter-spacing: -0.264px;
         }
-
-        .accent_text {
-            color: var(--main, #8C44FF);
-        }
+    }
+    
+    .card-title {
+        text-align: left;
     }
 `
 
@@ -45,7 +38,7 @@ const Features = styled.div`
         color: var(--black, #222);
         font-size: 50px;
         font-weight: 700;
-        letter-spacing: -0.55px;
+        letter-spacing: -0.6px;
     }
 `
 
@@ -55,11 +48,15 @@ const Solution = () => {
   return (
     <Wrapper>
       <div className={'head'}>
-        <h2>{t('solution.title')}</h2>
+        <Title>
+          {t('solution.title')}
+        </Title>
         <p>{t('solution.subtitle')}</p>
       </div>
       <Features>
-        <h3>{t('solution.card_title')}</h3>
+        <Title className="card-title">
+          {t('solution.card_title')}
+        </Title>
         <CardSlider />
       </Features>
     </Wrapper>

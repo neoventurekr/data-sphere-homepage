@@ -105,14 +105,11 @@ const Wrapper = styled.div`
         .title {
             font-size: 36px;
             font-weight: 600;
-            letter-spacing: -0.396px;
             margin-bottom: 24px;
         }
         
         .description {
             font-size: 20px;
-            font-weight: 500;
-            letter-spacing: -0.22px;
         }
 
         .icon {

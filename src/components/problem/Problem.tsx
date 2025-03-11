@@ -1,8 +1,10 @@
+import {forwardRef} from "react";
 import styled from '@emotion/styled';
-import {useCustomTranslation} from "@/hook/useCustomTranslation";
 import CardList from "@/components/problem/CardList";
+import Title from "@/components/text/Title";
+import {useCustomTranslation} from "@/hook/useCustomTranslation";
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
   .head {
       position: relative;
       width: 100%;
@@ -15,37 +17,31 @@ const Wrapper = styled.div`
       background: url('/images/background_problem.png') center center no-repeat;
       background-size: cover;
       
-      h2 {
-          color: var(--black, #222);
-          text-align: center;
-          font-size: 54px;
-          font-weight: 700;
-          letter-spacing: -0.594px;
-      }
-      
       p {
           color: var(--gray800, #5E5E5E);
           text-align: center;
           font-size: 22px;
-          font-weight: 500;
-          letter-spacing: -0.242px;
       }
   }
 `
 
-const Problem = () => {
+const Problem = forwardRef<HTMLDivElement>((props, ref) => {
   const { t } = useCustomTranslation();
   
   return (
-    <Wrapper>
+    <Wrapper ref={ref}>
       <div className={'head'}>
-        <h2>{t('problem.title')}</h2>
+        <Title>
+          {t('problem.title')}
+        </Title>
         <p>{t('problem.subtitle')}</p>
       </div>
       
       <CardList />
     </Wrapper>
   );
-};
+});
+
+Problem.displayName = 'Problem';
 
 export default Problem;

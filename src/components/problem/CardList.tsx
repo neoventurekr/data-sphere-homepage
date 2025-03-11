@@ -34,15 +34,12 @@ const Card = styled.div<{index: number}>`
         text-align: center;
         font-size: 36px;
         font-weight: 600;
-        letter-spacing: -0.396px;
     }
 
     .description {
         color: var(--gray800, #5E5E5E);
         text-align: center;
         font-size: 20px;
-        font-weight: 500;
-        letter-spacing: -0.22px;
     }
 
     .background {
