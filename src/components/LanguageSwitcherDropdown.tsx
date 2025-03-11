@@ -8,6 +8,7 @@ const Wrapper = styled.div`
 
     button {
         display: flex;
+        min-width: 80px;
         padding: 3px 20px;
         justify-content: center;
         align-items: center;
@@ -70,7 +71,7 @@ const LanguageSwitcherDropdown = () => {
       {isOpen && (
         <div className={'dropdown'}>
           <LanguageSwitcher lang={'ko'}>한국어</LanguageSwitcher>
-          <LanguageSwitcher lang={'en'}>영어</LanguageSwitcher>
+          <LanguageSwitcher lang={'en'}>English</LanguageSwitcher>
         </div>
       )}
     </Wrapper>

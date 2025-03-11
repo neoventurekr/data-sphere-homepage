@@ -18,7 +18,7 @@ const Wrapper = styled.section`
       background-size: cover;
       
       p {
-          color: var(--gray800, #5E5E5E);
+          color: #5E5E5E;
           text-align: center;
           font-size: 22px;
       }

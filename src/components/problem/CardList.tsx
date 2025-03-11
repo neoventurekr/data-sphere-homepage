@@ -23,8 +23,8 @@ const Card = styled.div<{index: number}>`
     gap: 20px;
     padding: 40px;
     border-radius: 22px;
-    border: 1px solid var(--gray300, #CACACA);
-    background: var(--gray50, #FAFAFA);
+    border: 1px solid #CACACA;
+    background: #FAFAFA;
     word-break: keep-all;
     overflow: hidden;
     transition: 0.4s;
@@ -37,7 +37,7 @@ const Card = styled.div<{index: number}>`
     }
 
     .description {
-        color: var(--gray800, #5E5E5E);
+        color: #5E5E5E;
         text-align: center;
         font-size: 20px;
     }

@@ -24,7 +24,7 @@ const Wrapper = styled.div`
         }
         
         .description {
-            color: var(--gray50, #FAFAFA);
+            color: #FAFAFA;
             font-size: 20px;
         }
     }

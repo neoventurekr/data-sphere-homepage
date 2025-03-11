@@ -33,6 +33,10 @@ const Nav = styled.nav`
     gap: 70px;
     color: var(--white, #FFF);
     font-size: 22px;
+    
+    div {
+        cursor: pointer;
+    }
 `
 
 interface Props {

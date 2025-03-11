@@ -24,12 +24,12 @@ const Wrapper = styled.footer`
         gap: 20px;
         
         p {
-            color: var(--gray700, #787878);
+            color: #787878;
             font-size: 30px;
         }
         
         button {
-            color: var(--gray500, #9F9F9F);
+            color: #9F9F9F;
             font-size: 26px;
             font-weight: 400;
         }

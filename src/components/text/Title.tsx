@@ -6,6 +6,7 @@ const Text = styled.h2`
     font-size: 54px;
     font-weight: 700;
     letter-spacing: -0.6px;
+    color: var(--black);
 
     .accent_text {
         color: var(--main, #8C44FF);

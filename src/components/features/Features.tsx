@@ -16,6 +16,10 @@ const Wrapper = styled.section`
     .head {
         max-width: 920px;
         margin: 0 auto;
+
+        h2 {
+            color: var(--white, #FFF);
+        }
         
         p {
             margin-top: 24px;
@@ -35,7 +39,7 @@ const Wrapper = styled.section`
             position: absolute;
             display: flex;
             width: 344px;
-            height: 174px;
+            height: 190px;
             justify-content: center;
             align-items: center;
             border-radius: 18px;
@@ -50,7 +54,7 @@ const Wrapper = styled.section`
                 position: absolute;
                 top: 0;
                 left: 50%;
-                transform: translate(-50%, -50%);
+                transform: translate(-50%, -60%);
                 width: 83px;
                 height: 83px;
                 background: var(--main);
@@ -61,28 +65,28 @@ const Wrapper = styled.section`
             }
             
             &:nth-of-type(1) {
-                top: 567px;
+                top: 558px;
                 left: 0;
             }
 
             &:nth-of-type(2) {
-                top: 52px;
+                top: 40px;
                 left: 50%;
                 transform: translateX(-50%);
             }
 
             &:nth-of-type(3) {
-                top: 567px;
+                top: 558px;
                 right: 0;
             }
 
             &:nth-of-type(4) {
-                top: 290px;
+                top: 280px;
                 left: 78px;
             }
 
             &:nth-of-type(5) {
-                top: 290px;
+                top: 280px;
                 right: 78px;
             }
         }

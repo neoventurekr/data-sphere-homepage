@@ -8,7 +8,7 @@
 		"menu_button": "Language"
 	},
 	"home": {
-		"title": "Be the owner of your data!",
+		"title": "Be the owner of\nyour data!",
 		"subtitle": "Secure and efficiently manage all types of data, including bio data, with Data Sphere, and realize personalized data ownership.",
 		"button": "More"
 	},
@@ -17,7 +17,7 @@
 		"description": "DataSphere is designed to ensure user-centric data ownership while enabling AI and other data-driven applications to efficiently utilize data. To do this, it combines decentralized data archiving, privacy protection technology, data transactions using smart contracts, and token-based economic models to ensure safe utilization and fair compensation of data.\n\nDataSphere is not just a data repository, but a comprehensive data ecosystem that maximizes data ownership, security, and usability. To do this, we apply blockchain technology and encryption protocols, allowing users to manage their data securely and trade it within a trusted network."
 	},
 	"problem": {
-		"title": "Problems with Traditional Data Management",
+		"title": "Problems with\nTraditional Data Management",
 		"subtitle": "Data has become a key asset in modern society,\nbut traditional data management systems have some major problems.",
 		"card_1_title": "Data Ownership Issues",
 		"card_1_description": "Most data is stored and managed on a centralized platform, and individuals have limited authority to decide whether to utilize their data.",

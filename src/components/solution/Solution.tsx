@@ -14,11 +14,14 @@ const Wrapper = styled.section`
         padding: 210px;
         background: url('/images/background_solution.png') center center no-repeat;
         background-size: cover;
-        color: var(--white, #FFF);
+        
+        h2 {
+            color: var(--white, #FFF);
+        }
         
         p {
             width: 770px;
-            color: var(--gray200, #DEDEDE);
+            color: #DEDEDE;
             text-align: center;
             font-size: 24px;
         }

@@ -10,7 +10,7 @@ import {useCustomTranslation} from "@/hook/useCustomTranslation";
 const Wrapper = styled.div`
     position: relative;
     margin: 40px -12px 0;
-    --swiper-pagination-progressbar-bg-color: var(--gray100, #EEE);
+    --swiper-pagination-progressbar-bg-color: #EEE;
     --swiper-pagination-progressbar-size: 10px;
     --swiper-pagination-color: var(--main);
     
@@ -45,7 +45,7 @@ const Wrapper = styled.div`
         justify-content: center;
         align-items: center;
         border-radius: 30px;
-        background: var(--gray100, #EEE);
+        background: #EEE;
         top: 50%;
         transform: translateY(-50%);
         z-index: 20;
@@ -56,7 +56,7 @@ const Wrapper = styled.div`
             position: absolute;
             width: 3px;
             height: 17px;
-            background: var(--gray100, #CACACA);
+            background: #CACACA;
             left: 50%;
         }
 
@@ -84,8 +84,9 @@ const Wrapper = styled.div`
     .card {
         position: relative;
         display: flex;
-        height: 400px;
-        padding: 45px 39px;
+        height: auto;
+        align-self: stretch;
+        padding: 45px 39px 120px;
         flex-direction: column;
         border-radius: 20px 20px 80px 20px;
         background: var(--white, #FFF);
