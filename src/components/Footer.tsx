@@ -5,11 +5,15 @@ const Wrapper = styled.footer`
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1600px;
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
     padding: 120px 0;
     background: var(--white, #FFF);
+    
+    .logo {
+        width: 286px;
+    }
     
     .link-container {
         display: flex;
@@ -25,12 +29,12 @@ const Wrapper = styled.footer`
         
         p {
             color: #787878;
-            font-size: 30px;
+            font-size: 24px;
         }
         
         button {
             color: #9F9F9F;
-            font-size: 26px;
+            font-size: 20px;
             font-weight: 400;
         }
     }
@@ -42,7 +46,7 @@ const Footer = () => {
   return (
     <Wrapper>
       <div>
-        <img src={'images/logo-black.png'} alt="logo" />
+        <img src={'images/logo-black.png'} alt="logo" className="logo" />
       </div>
       <div className={'link-container'}>
         <div className={'link-group'}>
