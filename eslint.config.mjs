@@ -16,7 +16,7 @@ const eslintConfig = [
       "@next/next/no-img-element": "off",
       "@typescript-eslint/no-require-imports": "off",
     },
-  },
+  }
 ];
 
 export default eslintConfig;
