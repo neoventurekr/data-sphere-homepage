@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
     emotion: true, // SWC에서 Emotion 지원 활성화
   },
   output: "export",
+  
 };
 
 export default nextConfig;
